@@ -1,0 +1,13 @@
+var mark: Int = 0
+var day: Int = 1
+var desired_mark: Int = 25
+while (day < 365) {
+    if (mark < desired_mark) {
+        print(" | Поставьте, пожалуйста, зачет ;-( | ")
+        mark = mark + 1
+    } else {
+        print(" | Спасибо =) | ")
+        day = 365
+    }
+    day = day + 1
+}

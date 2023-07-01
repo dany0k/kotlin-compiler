@@ -1,0 +1,12 @@
+var i: Int = 1
+val next: Int = 0
+var prev: Int = 0
+var curr: Int = 1
+while(i <= 10){
+    print(prev)
+    print(" ")
+    next = prev + curr
+    prev = curr
+    curr = next
+    i = i + 1
+}
